@@ -6,9 +6,9 @@ This repository provides a simple guide to set up your **NVIDIA GPU** for Deep L
 
 ---
 
-## 🧩 Steps Overview
+## Steps Overview
 
-### 1️⃣ Install NVIDIA Driver  
+### 1 Install NVIDIA Driver  
 👉 [Download Here](https://www.nvidia.com/Download/index.aspx)  
 Make sure to install the latest driver for your GPU model.  
 
@@ -19,13 +19,13 @@ nvidia-smi
 
 ---
 
-### 2️⃣ Install Visual Studio (C++)  
+### 2. Install Visual Studio (C++)  
 👉 [Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/)  
 Select “**Desktop Development with C++**” during installation.
 
 ---
 
-### 3️⃣ Install Anaconda / Miniconda  
+### 3. Install Anaconda / Miniconda  
 👉 [Download Anaconda](https://www.anaconda.com/download/success)  
 Create a new environment:
 ```bash
@@ -35,7 +35,7 @@ conda activate dl_env
 
 ---
 
-### 4️⃣ Install CUDA Toolkit  
+### 4. Install CUDA Toolkit  
 👉 [CUDA Toolkit Archive](https://developer.nvidia.com/cuda-toolkit-archive)  
 Choose a version compatible with your PyTorch/TensorFlow release.  
 
@@ -46,7 +46,7 @@ nvcc --version
 
 ---
 
-### 5️⃣ Install cuDNN  
+### 5. Install cuDNN  
 👉 [cuDNN Archive](https://developer.nvidia.com/rdp/cudnn-archive)  
 Extract and copy the files into your CUDA installation directories:  
 ```
@@ -57,7 +57,7 @@ lib → CUDA\lib
 
 ---
 
-### 6️⃣ Install PyTorch (GPU Enabled)  
+### 6. Install PyTorch (GPU Enabled)  
 👉 [Install PyTorch](https://pytorch.org/get-started/locally/)  
 
 Example command:
@@ -67,7 +67,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 ---
 
-## ✅ Verify GPU Setup
+## Verify GPU Setup
 Run this Python script to test your GPU:
 ```python
 import torch
@@ -92,8 +92,8 @@ GPU Name: NVIDIA GeForce RTX XXXX
 
 ---
 
-### 🧠 Credits
+### Credits
 Based on: [entbappy/Setup-NVIDIA-GPU-for-Deep-Learning](https://github.com/entbappy/Setup-NVIDIA-GPU-for-Deep-Learning)  
-Updated and refined by **[Your Name](https://github.com/your-github-username)** ✨  
+Updated and refined by **[Muhammad Farrukh Bashir]**   
 
 > 💡 *Your GPU is now ready for deep learning workloads!*
